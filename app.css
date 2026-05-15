@@ -15,3 +15,17 @@
 img.displaySlide {
     display: block;
 }
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 500px;
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 500px;
+    color: red;
+}
