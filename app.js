@@ -5,6 +5,7 @@ let intervalId = null;
 document.addEventListener("DOMContentLoaded", initializeSlider);
 
 function initializeSlider() {
+    slides[slideIndex].style.display = "block";
 
 }
 
