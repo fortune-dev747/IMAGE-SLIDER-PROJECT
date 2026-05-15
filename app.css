@@ -1,17 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .container {
     position: relative;
-    width: 100%;
     margin: auto;
     overflow: hidden;
+    margin-left: 600px;
 }
 
 .container img {
-    width: 100%;
+    width: 400px;
+    height: 500px;
     display: none;
+}
+
+img.displaySlide {
+    display: block;
 }
