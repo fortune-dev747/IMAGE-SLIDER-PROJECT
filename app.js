@@ -31,8 +31,10 @@ function showSlide(index) {
 
 
   function prevSlide() {
+    clearInterval(intervalId); 
     slideIndex--;
     showSlide(slideIndex);
+    intervalId = setInterval(nextSlide, 5000);
   }
 
   function nextSlide() {
