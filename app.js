@@ -1,5 +1,14 @@
 // MODAL POPUP
+const popup = document.getElementById("myModal");
 
+window.addEventListener("load", openPopup);
+
+function openPopup() {
+    popup.style.display = "block";
+}
+function closePopup() {
+    popup.style.display = "none";
+}
 
 // IMAGE SLIDER
 const slides = document.querySelectorAll('.slide');
